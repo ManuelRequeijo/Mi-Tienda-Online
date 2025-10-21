@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts ejemplo -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Mi Tienda Online</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#reseñas">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h2>Bienvenido a Mi Tienda Online</h2>
+                <p>Encuentra cafés premium y accesorios para preparar la taza perfecta.</p>
+            </div>
+        </section>
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/Nnxxfi0tuDg"
+                title="Preparando un Cafecito"
+                frameborder="0"
+                allowfullscreen></iframe>
+            </div>
+            <h3 style="margin-top:2em;">Granos de Café Premium</h3>
+            <div class="productos-container" style="gap: 2em 2em; flex-wrap: wrap;">
+                <div class="card">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/public/cafe-colombiano-sZLIqXYAdqlSMNGLpwSvs6reYmH9oa.jpg" alt="Café Colombiano">
+                    <h3>Café Colombiano</h3>
+                    <p>Notas dulces y afrutadas con cuerpo medio</p>
+                    <strong>$2.99</strong>
+                </div>
+                <div class="card">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/public/espresso-italiano-DJPY9kH4xtuDLg1fS9yXHlmpR7s5Ck.jpg" alt="Espresso Italiano">
+                    <h3>Espresso Italiano</h3>
+                    <p>Intenso y aromático, perfecto para espresso</p>
+                    <strong>$2.79</strong>
+                </div>
+                <div class="card">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/public/cafe-robusta-premium-oUszLqP1TSOGXTwBZEnADeZW9mGBwy.jpg" alt="Café Robusta">
+                    <h3>Café Robusta</h3>
+                    <p>Granos de café premium</p>
+                    <strong>$3.99</strong>
+                </div>
+                <div class="card">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/public/cafe-arabica-VvQVJkJ7P03tqDOLx20sIRlshb8Xu6.jpg" alt="Granos Arábica">
+                    <h3>Café Arábica</h3>
+                    <p>Suave y equilibrado con acidez brillante</p>
+                    <strong>$4.69</strong>
+                </div>
+            </div>
+            <h3 style="margin-top:2em;">Accesorios para Preparar Café</h3>
+            <div class="productos-container" style="gap: 2em 2em; flex-wrap: wrap;">
+                <div class="card">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/public/cafetera-francesa-m8i6gESiSE29BOIgp1YCt2WJtz38QA.jpg" alt="Cafetera Francesa">
+                    <h3>Cafetera Francesa</h3>
+                    <p>Método clásico para café con cuerpo completo</p>
+                    <strong>$34.99</strong>
+                </div>
+                <div class="card">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/public/molinillo-manual-53GTWlt5Xqc1ABqUUNPjVtVVnyfwDB.jpg" alt="Molinillo Manual">
+                    <h3>Molinillo Manual</h3>
+                    <p>Molienda precisa y consistente</p>
+                    <strong>$29.99</strong>
+                </div>
+                <div class="card">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/public/cafetera-moka-AKqj21CACUnDHKw4uFp2ZUifUB3K0V.jpg" alt="Cafetera Moka">
+                    <h3>Cafetera Moka</h3>
+                    <p>Espresso italiano tradicional en casa</p>
+                    <strong>$39.99</strong>
+                </div>
+                <div class="card">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/public/chemex-YqywLTCPO1wkQObX9ZjJvJH1mUoq06.jpg" alt="Chemex">
+                    <h3>Chemex</h3>
+                    <p>Elegancia y pureza en cada taza</p>
+                    <strong>$44.99</strong>
+                </div>
+            </div>
+        </section>
+        <section id="reseñas">
+            <h2>Reseñas</h2>
+            <div class="reseñas-grid">
+            <div class="reseña">
+                <p>"El mejor café que probé, y la atención es excelente."</p>
+                <span>- Lucía</span>
+            </div>
+            <div class="reseña">
+                <p>"Me encantó la variedad de productos y la calidad."</p>
+                <span>- Martín</span>
+            </div>
+            <div class="reseña">
+                <p>"El kit de prensa francesa es ideal para regalar."</p>
+                <span>- Sofía</span>
+            </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2 style="text-align:center; font-size:2.2em; margin-bottom:0.2em; color:#6d4c2b;">Contáctanos</h2>
+            <p style="text-align:center; margin-bottom:2em; color:#444;">
+                Estamos aquí para responder tus preguntas sobre nuestros cafés y productos
+            </p>
+            <div class="contact-info-container">
+                <div class="contact-info-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email" class="contact-icon">
+                    <h4>Email</h4>
+                    <p>hola@cafearoma.com</p>
+                </div>
+                <div class="contact-info-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Teléfono" class="contact-icon">
+                    <h4>Teléfono</h4>
+                    <p>+11 2961 5206</p>
+                </div>
+                <div class="contact-info-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Ubicación" class="contact-icon">
+                    <h4>Ubicación</h4>
+                    <p>Av Rivadavia 2163, Buenos Aires</p>
+                </div>
+                <div class="contact-info-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/61/61205.png" alt="Horario" class="contact-icon">
+                    <h4>Horario</h4>
+                    <p>Lun - Vie: 8:00 - 18:00</p>
+                </div>
+            </div>
+            <form action="https://formspree.io/f/mwprwvog" method="POST" class="contact-form">
+                <input type="text" name="nombre" placeholder="Tu nombre" required>
+                <input type="email" name="email" placeholder="Tu email" required>
+                <textarea name="mensaje" placeholder="Tu mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Mi Tienda Online</p>
+    </footer>
+</body>
+</html>
