@@ -5,11 +5,11 @@ Pequeña página demo de una tienda de café con secciones de inicio, productos,
 ## Descripción
 Sitio estático que muestra productos (granos y accesorios), reseñas de clientes y un formulario funcional con Formspree. Incluye un video embebido de YouTube como contenido multimedia y estilos sencillos y responsivos en CSS.
 
-## Demo
+## Netlify
 Sitio en Netlify: https://deft-klepon-105860.netlify.app
 
-## Repositorio
-https://github.com/ManuelRequeijo/Mi-Tienda-Online
+## GitHub
+Repositorio en GitHub: https://github.com/ManuelRequeijo/Mi-Tienda-Online
 
 ## Tecnologías
 - HTML
